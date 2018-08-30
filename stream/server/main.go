@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"context"
-	"github.com/micro/go-micro"
+	"github.com/jinbanglin/go-micro"
 
-	proto "github.com/micro/examples/stream/server/proto"
+	proto "github.com/jinbanglin/examples/stream/server/proto"
 )
 
 type Streamer struct{}

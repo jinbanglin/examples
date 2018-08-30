@@ -2,9 +2,9 @@ package subscriber
 
 import (
 	"context"
-	"github.com/micro/go-log"
+	"github.com/jinbanglin/go-log"
 
-	example "github.com/micro/examples/template/srv/proto/example"
+	example "github.com/jinbanglin/examples/template/srv/proto/example"
 )
 
 type Example struct{}

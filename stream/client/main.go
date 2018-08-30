@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"context"
-	proto "github.com/micro/examples/stream/server/proto"
-	"github.com/micro/go-micro"
+	proto "github.com/jinbanglin/examples/stream/server/proto"
+	"github.com/jinbanglin/go-micro"
 )
 
 func bidirectional(cl proto.StreamerService) {

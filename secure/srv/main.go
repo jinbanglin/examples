@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"context"
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/transport"
+	hello "github.com/jinbanglin/examples/greeter/srv/proto/hello"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/transport"
 )
 
 type Say struct{}

@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"context"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/selector"
+	"github.com/jinbanglin/go-micro/client"
+	"github.com/jinbanglin/go-micro/cmd"
+	"github.com/jinbanglin/go-micro/registry"
+	"github.com/jinbanglin/go-micro/selector"
 
-	example "github.com/micro/examples/server/proto/example"
+	example "github.com/jinbanglin/examples/server/proto/example"
 )
 
 // Built in random hashed node selector

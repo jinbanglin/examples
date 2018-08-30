@@ -3,12 +3,12 @@ package handler
 import (
 	"context"
 	"encoding/json"
-	"github.com/micro/go-log"
+	"github.com/jinbanglin/go-log"
 
-	"github.com/micro/examples/template/api/client"
-	example "github.com/micro/examples/template/srv/proto/example"
-	api "github.com/micro/go-api/proto"
-	"github.com/micro/go-micro/errors"
+	"github.com/jinbanglin/examples/template/api/client"
+	example "github.com/jinbanglin/examples/template/srv/proto/example"
+	api "github.com/jinbanglin/go-api/proto"
+	"github.com/jinbanglin/go-micro/errors"
 )
 
 type Example struct{}

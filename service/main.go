@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"context"
-	"github.com/micro/cli"
-	proto "github.com/micro/examples/service/proto"
-	"github.com/micro/go-micro"
+	"github.com/jinbanglin/cli"
+	proto "github.com/jinbanglin/examples/service/proto"
+	"github.com/jinbanglin/go-micro"
 )
 
 /*

@@ -1,4 +1,4 @@
-# Micro Examples  [![Travis CI](https://travis-ci.org/micro/examples.svg?branch=master)](https://travis-ci.org/micro/examples) [![Go Report Card](https://goreportcard.com/badge/micro/examples)](https://goreportcard.com/report/github.com/micro/examples)
+# Micro Examples  [![Travis CI](https://travis-ci.org/micro/examples.svg?branch=master)](https://travis-ci.org/micro/examples) [![Go Report Card](https://goreportcard.com/badge/micro/examples)](https://goreportcard.com/report/github.com/jinbanglin/examples)
 
 This is a repository for micro examples. Feel free to contribute.
 
@@ -24,7 +24,7 @@ This is a repository for micro examples. Feel free to contribute.
 - [options](options) - Setting options in the go-micro framework
 - [plugins](plugins) - How to use plugins
 - [pubsub](pubsub) - Example of using pubsub at the client/server level
-- [grpc](grpc) - Examples of how to use [go-grpc](https://github.com/micro/go-grpc)
+- [grpc](grpc) - Examples of how to use [go-grpc](https://github.com/jinbanglin/go-grpc)
 - [redirect](redirect) - An example of how to http redirect using an API service
 - [roundrobin](roundrobin) - A stateful client wrapper for true round robin of requests
 - [secure](secure) - Demonstrates use of transport secure option for self signed certs
@@ -43,7 +43,7 @@ Find contributions from the community via the [explorer](https://micro.mu/explor
 
 - [go-shopping](https://github.com/autodidaddict/go-shopping) - A sample product with a suite of services
 - [shippy](https://github.com/EwanValentine/shippy) - A multi app demo and tutorial
-- [microhq](https://github.com/microhq) - A place for micro services
+- [microhq](https://github.com/jinbanglinhq) - A place for micro services
 
 ## Dependencies
 
@@ -85,7 +85,7 @@ go get github.com/golang/protobuf/{proto,protoc-gen-go}
 ```
 
 ```shell
-go get github.com/micro/protoc-gen-micro
+go get github.com/jinbanglin/protoc-gen-micro
 ```
 
 ### Compile Proto

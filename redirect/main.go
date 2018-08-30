@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"context"
-	"github.com/micro/go-micro"
-	api "github.com/micro/micro/api/proto"
+	"github.com/jinbanglin/go-micro"
+	api "github.com/jinbanglin/micro/api/proto"
 )
 
 type Redirect struct{}

@@ -5,14 +5,14 @@ import (
 	"log"
 
 	"github.com/hailocab/go-geoindex"
-	"github.com/micro/examples/booking/data"
-	"github.com/micro/examples/booking/srv/geo/proto"
+	"github.com/jinbanglin/examples/booking/data"
+	"github.com/jinbanglin/examples/booking/srv/geo/proto"
 
 	"context"
 	"golang.org/x/net/trace"
 
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/metadata"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/metadata"
 )
 
 const (

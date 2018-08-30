@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/micro/go-log"
+	"github.com/jinbanglin/go-log"
 	"net/http"
 
-	"github.com/micro/examples/template/web/handler"
-	"github.com/micro/go-web"
+	"github.com/jinbanglin/examples/template/web/handler"
+	"github.com/jinbanglin/go-web"
 )
 
 func main() {

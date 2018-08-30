@@ -3,7 +3,7 @@
 The micro toolkit supports plugins for the binary itself. These are separate from go-micro plugins.
 
 Plugins can be used to add flags, commands and middleware handlers. An example would be authentication, 
-logging, tracing, etc. Existing plugins can be found in [go-plugins/micro](https://github.com/micro/go-plugins/tree/master/micro).
+logging, tracing, etc. Existing plugins can be found in [go-plugins/micro](https://github.com/jinbanglin/go-plugins/tree/master/micro).
 
 ## A simple example
 
@@ -18,8 +18,8 @@ package main
 
 import (
 	"log"
-	"github.com/micro/cli"
-	"github.com/micro/micro/plugin"
+	"github.com/jinbanglin/cli"
+	"github.com/jinbanglin/micro/plugin"
 )
 
 func init() {
@@ -55,10 +55,10 @@ Plugins can be added to go-micro in the following ways. By doing so they'll be a
 
 ```go
 import (
-	"github.com/micro/go-micro/cmd"
-	_ "github.com/micro/go-plugins/broker/rabbitmq"
-	_ "github.com/micro/go-plugins/registry/kubernetes"
-	_ "github.com/micro/go-plugins/transport/nats"
+	"github.com/jinbanglin/go-micro/cmd"
+	_ "github.com/jinbanglin/go-plugins/broker/rabbitmq"
+	_ "github.com/jinbanglin/go-plugins/registry/kubernetes"
+	_ "github.com/jinbanglin/go-plugins/transport/nats"
 )
 
 func main() {
@@ -71,10 +71,10 @@ The same is achieved when calling ```service.Init```
 
 ```go
 import (
-	"github.com/micro/go-micro"
-	_ "github.com/micro/go-plugins/broker/rabbitmq"
-	_ "github.com/micro/go-plugins/registry/kubernetes"
-	_ "github.com/micro/go-plugins/transport/nats"
+	"github.com/jinbanglin/go-micro"
+	_ "github.com/jinbanglin/go-plugins/broker/rabbitmq"
+	_ "github.com/jinbanglin/go-plugins/registry/kubernetes"
+	_ "github.com/jinbanglin/go-plugins/transport/nats"
 )
 
 func main() {
@@ -102,8 +102,8 @@ CLI Flags provide a simple way to initialise plugins but you can do the same you
 
 ```go
 import (
-	"github.com/micro/go-micro"
-	"github.com/micro/go-plugins/registry/kubernetes"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-plugins/registry/kubernetes"
 )
 
 func main() {
@@ -128,9 +128,9 @@ Create file plugins.go
 package main
 
 import (
-	_ "github.com/micro/go-plugins/broker/rabbitmq"
-	_ "github.com/micro/go-plugins/registry/kubernetes"
-	_ "github.com/micro/go-plugins/transport/nats"
+	_ "github.com/jinbanglin/go-plugins/broker/rabbitmq"
+	_ "github.com/jinbanglin/go-plugins/registry/kubernetes"
+	_ "github.com/jinbanglin/go-plugins/transport/nats"
 )
 ```
 

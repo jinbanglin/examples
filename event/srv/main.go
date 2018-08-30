@@ -1,9 +1,9 @@
 package main
 
 import (
-	proto "github.com/micro/go-api/proto"
-	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	proto "github.com/jinbanglin/go-api/proto"
+	"github.com/jinbanglin/go-log"
+	"github.com/jinbanglin/go-micro"
 
 	"context"
 )

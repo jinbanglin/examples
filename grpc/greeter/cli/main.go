@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	hello "github.com/micro/examples/grpc/greeter/srv/proto/hello"
-	"github.com/micro/go-grpc"
-	"github.com/micro/go-micro/metadata"
+	hello "github.com/jinbanglin/examples/grpc/greeter/srv/proto/hello"
+	"github.com/jinbanglin/go-grpc"
+	"github.com/jinbanglin/go-micro/metadata"
 
 	"context"
 )

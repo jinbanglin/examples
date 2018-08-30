@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro"
+	hello "github.com/jinbanglin/examples/greeter/srv/proto/hello"
+	"github.com/jinbanglin/go-micro"
 
 	"context"
 )

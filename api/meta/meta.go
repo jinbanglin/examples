@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	proto "github.com/micro/examples/api/rpc/proto"
-	"github.com/micro/go-api"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/errors"
+	proto "github.com/jinbanglin/examples/api/rpc/proto"
+	"github.com/jinbanglin/go-api"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/errors"
 
 	"context"
 )

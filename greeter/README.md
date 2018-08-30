@@ -12,7 +12,7 @@ An example Greeter application
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 
@@ -44,7 +44,7 @@ Examples of client usage via other languages can be found in the client director
 ## API
 
 HTTP based requests can be made via the micro API. Micro logically separates API services from backend services. By default the micro API 
-accepts HTTP requests and converts to *api.Request and *api.Response types. Find them here [micro/api/proto](https://github.com/micro/micro/tree/master/api/proto).
+accepts HTTP requests and converts to *api.Request and *api.Response types. Find them here [micro/api/proto](https://github.com/jinbanglin/micro/tree/master/api/proto).
 
 Run the go.micro.api.greeter API Service
 ```shell
@@ -77,7 +77,7 @@ Call go.micro.srv.greeter via sidecar
 curl -H 'Content-Type: application/json' -d '{"name": "john"}' http://localhost:8081/greeter/say/hello
 ```
 
-The sidecar provides all the features of go-micro as a HTTP API. Learn more at [micro/car](https://github.com/micro/micro/tree/master/car).
+The sidecar provides all the features of go-micro as a HTTP API. Learn more at [micro/car](https://github.com/jinbanglin/micro/tree/master/car).
 
 ## Web
 

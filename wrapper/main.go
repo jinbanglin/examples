@@ -5,9 +5,9 @@ import (
 	"log"
 
 	"context"
-	proto "github.com/micro/examples/service/proto"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/server"
+	proto "github.com/jinbanglin/examples/service/proto"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/server"
 )
 
 type Greeter struct{}

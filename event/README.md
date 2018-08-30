@@ -2,7 +2,7 @@
 
 This is an example of using the micro API as an event gateway with the event handler
 
-A http request is formatted as an [event](https://github.com/micro/go-api/blob/master/proto/api.proto#L28L39) and published on the go-micro message broker.
+A http request is formatted as an [event](https://github.com/jinbanglin/go-api/blob/master/proto/api.proto#L28L39) and published on the go-micro message broker.
 
 ## Contents
 
@@ -11,7 +11,7 @@ A http request is formatted as an [event](https://github.com/micro/go-api/blob/m
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 

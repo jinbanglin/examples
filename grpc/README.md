@@ -1,6 +1,6 @@
 # GRPC
 
-Contains examples for using [go-grpc](https://github.com/micro/go-grpc)
+Contains examples for using [go-grpc](https://github.com/jinbanglin/go-grpc)
 
 - [greeter](greeter) - A greeter example
 - [gateway](gateway) - A grpc gateway example
@@ -13,7 +13,7 @@ Check out the [greeter](greeter) example using go-grpc
 ### Import go-grpc
 
 ```
-import "github.com/micro/go-grpc"
+import "github.com/jinbanglin/go-grpc"
 ```
 
 ### Create micro.Service
@@ -32,10 +32,10 @@ What if you want to add grpc to a pre-existing service? Use the build pattern fo
 package main
 
 import (
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
-	cli "github.com/micro/go-plugins/client/grpc"
-	srv "github.com/micro/go-plugins/server/grpc"
+	"github.com/jinbanglin/go-micro/client"
+	"github.com/jinbanglin/go-micro/server"
+	cli "github.com/jinbanglin/go-plugins/client/grpc"
+	srv "github.com/jinbanglin/go-plugins/server/grpc"
 )
 
 func init() {

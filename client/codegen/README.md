@@ -29,7 +29,7 @@ if err != nil {
 ## Generation of stub code for the example service
 
 ```shell
-go get github.com/micro/protobuf/protoc-gen-go
+go get github.com/jinbanglin/protobuf/protoc-gen-go
 cd examples/server/proto/example
 protoc --go_out=plugins=micro:. example.proto
 ```
@@ -42,7 +42,7 @@ to see the generated code.
 ### Download the protoc-gen-go code
 
 ```shell
-go get github.com/micro/protobuf/protoc-gen-go
+go get github.com/jinbanglin/protobuf/protoc-gen-go
 ```
 
 ### Define your proto service.
@@ -133,7 +133,7 @@ import (
 	"fmt"
 
 	"context"
-	"github.com/micro/go-micro/client"
+	"github.com/jinbanglin/go-micro/client"
 	hello "path/to/hello/proto"
 )
 

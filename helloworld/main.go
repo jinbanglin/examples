@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	proto "github.com/micro/examples/helloworld/proto"
-	"github.com/micro/go-micro"
+	proto "github.com/jinbanglin/examples/helloworld/proto"
+	"github.com/jinbanglin/go-micro"
 )
 
 type Greeter struct{}

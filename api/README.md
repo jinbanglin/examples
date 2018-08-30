@@ -2,7 +2,7 @@
 
 This repo contains examples for serving microservices via the micro api.
 
-The [micro api](https://github.com/micro/micro/tree/master/api) is an API gateway which serves HTTP and routes to RPC based services. 
+The [micro api](https://github.com/jinbanglin/micro/tree/master/api) is an API gateway which serves HTTP and routes to RPC based services. 
 In the micro ecosystem we logically separate concerns via architecture and tooling. Read more on buiding an API layer of services 
 in the [architecture blog post](https://micro.mu/blog/2016/04/18/micro-architecture.html).
 
@@ -22,7 +22,7 @@ can be set via the flag `--handler=`.
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 

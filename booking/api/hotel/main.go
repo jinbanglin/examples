@@ -13,15 +13,15 @@ import (
 	"context"
 	"golang.org/x/net/trace"
 
-	"github.com/micro/examples/booking/api/hotel/proto"
-	"github.com/micro/examples/booking/srv/auth/proto"
-	"github.com/micro/examples/booking/srv/geo/proto"
-	"github.com/micro/examples/booking/srv/profile/proto"
-	"github.com/micro/examples/booking/srv/rate/proto"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/client"
-	merr "github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/metadata"
+	"github.com/jinbanglin/examples/booking/api/hotel/proto"
+	"github.com/jinbanglin/examples/booking/srv/auth/proto"
+	"github.com/jinbanglin/examples/booking/srv/geo/proto"
+	"github.com/jinbanglin/examples/booking/srv/profile/proto"
+	"github.com/jinbanglin/examples/booking/srv/rate/proto"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/client"
+	merr "github.com/jinbanglin/go-micro/errors"
+	"github.com/jinbanglin/go-micro/metadata"
 )
 
 const (

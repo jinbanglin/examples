@@ -19,8 +19,8 @@ Protobuf v3 are required:
 Install the protoc-gen libraries and other dependencies:
 
     $ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
-    $ go get -u github.com/micro/protoc-gen-micro
-    $ go get -u github.com/micro/go-micro
+    $ go get -u github.com/jinbanglin/protoc-gen-micro
+    $ go get -u github.com/jinbanglin/go-micro
     $ go get -u github.com/hailocab/go-geoindex
 
 Clone the repository:

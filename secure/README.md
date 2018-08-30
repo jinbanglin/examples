@@ -20,8 +20,8 @@ Create a tls.go file
 package main
 
 import (
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/transport"
+	"github.com/jinbanglin/go-micro/client"
+	"github.com/jinbanglin/go-micro/transport"
 )
 
 func init() {
@@ -36,6 +36,6 @@ func init() {
 Build the toolkit with the tls.go file
 
 ```
-cd github.com/micro/micro
+cd github.com/jinbanglin/micro
 go build -o micro main.go tls.go
 ```

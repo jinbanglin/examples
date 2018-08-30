@@ -4,10 +4,10 @@ import (
 	"log"
 
 	"context"
-	"github.com/micro/examples/server/handler"
-	"github.com/micro/examples/server/subscriber"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/server"
+	"github.com/jinbanglin/examples/server/handler"
+	"github.com/jinbanglin/examples/server/subscriber"
+	"github.com/jinbanglin/go-micro/cmd"
+	"github.com/jinbanglin/go-micro/server"
 )
 
 func logWrapper(fn server.HandlerFunc) server.HandlerFunc {

@@ -5,9 +5,9 @@ import (
 
 	"github.com/emicklei/go-restful"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-web"
+	hello "github.com/jinbanglin/examples/greeter/srv/proto/hello"
+	"github.com/jinbanglin/go-micro/client"
+	"github.com/jinbanglin/go-web"
 
 	"context"
 )

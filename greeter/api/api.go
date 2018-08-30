@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/errors"
-	api "github.com/micro/micro/api/proto"
+	hello "github.com/jinbanglin/examples/greeter/srv/proto/hello"
+	"github.com/jinbanglin/go-micro"
+	"github.com/jinbanglin/go-micro/errors"
+	api "github.com/jinbanglin/micro/api/proto"
 
 	"context"
 )

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro/go-config"
-	"github.com/micro/go-config/source/file"
+	"github.com/jinbanglin/go-config"
+	"github.com/jinbanglin/go-config/source/file"
 )
 
 func main() {

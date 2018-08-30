@@ -24,8 +24,8 @@ import math "math"
 
 import (
 	context "context"
-	client "github.com/micro/go-micro/client"
-	server "github.com/micro/go-micro/server"
+	client "github.com/jinbanglin/go-micro/client"
+	server "github.com/jinbanglin/go-micro/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -50,7 +50,7 @@ An example client can be found at examples/greeter/client/ruby/sidecar_client.rb
 
 ### Run the sidecar
 ```shell
-$ go get github.com/micro/micro
+$ go get github.com/jinbanglin/micro
 $ micro sidecar
 ```
 

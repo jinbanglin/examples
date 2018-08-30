@@ -12,7 +12,7 @@ HTTP headers sent to the micro api will be converted to metadata and forwarded o
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 

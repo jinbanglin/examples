@@ -9,7 +9,7 @@ A sharding example using the greeter application and a X-From-User header as the
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 
@@ -25,7 +25,7 @@ consul agent -dev
 ### Micro
 
 ```
-go get github.com/micro/micro
+go get github.com/jinbanglin/micro
 ```
 
 ## Run 

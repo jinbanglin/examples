@@ -6,7 +6,7 @@ are a powerful alternative to the grpc-gateway.
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 
@@ -24,8 +24,8 @@ consul agent -dev
 Check out the micro toolkit
 
 ```
-git clone https://github.com/micro/micro
-cd github.com/micro/micro
+git clone https://github.com/jinbanglin/micro
+cd github.com/jinbanglin/micro
 ```
 
 Create a file `plugin.go` for the grpc plugin
@@ -36,7 +36,7 @@ plugin.go
 package main
 
 import (
-	_ "github.com/micro/go-plugins/client/grpc"
+	_ "github.com/jinbanglin/go-plugins/client/grpc"
 )
 ```
 

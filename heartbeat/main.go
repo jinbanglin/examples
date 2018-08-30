@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	"github.com/jinbanglin/go-log"
+	"github.com/jinbanglin/go-micro"
 )
 
 func main() {

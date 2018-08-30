@@ -26,13 +26,13 @@ consul agent -dev
 ## Install micro
 
 ```
-go get github.com/micro/micro
+go get github.com/jinbanglin/micro
 ```
 
 ## Run function
 
 ```shell
-micro run -r github.com/micro/examples/function
+micro run -r github.com/jinbanglin/examples/function
 ```
 
 ## Call function

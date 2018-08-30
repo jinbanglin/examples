@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "github.com/micro/go-api/proto/api.proto";
+import "github.com/jinbanglin/go-api/proto/api.proto";
 
 service Form {
 	// regular form

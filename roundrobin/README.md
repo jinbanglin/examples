@@ -9,7 +9,7 @@ An example of using a round robin client wrapper with the greeter application.
 ## Deps
 
 Service discovery is required for all services. Default is Consul or MDNS. You can also use plugins from 
-[micro/plugins](https://github.com/micro/go-plugins).
+[micro/plugins](https://github.com/jinbanglin/go-plugins).
 
 ### MDNS
 
@@ -25,7 +25,7 @@ consul agent -dev
 ### Micro
 
 ```
-go get github.com/micro/micro
+go get github.com/jinbanglin/micro
 ```
 
 ## Run 
